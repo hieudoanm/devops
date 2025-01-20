@@ -5,6 +5,11 @@
 - [DevOps](#devops)
   - [Table of Content](#table-of-content)
   - [Operating Systems](#operating-systems)
+  - [Hosting](#hosting)
+    - [Serverless](#serverless)
+    - [Platform as a Service (P.a.a.S)](#platform-as-a-service-paas)
+  - [API](#api)
+    - [AI](#ai)
 
 ## Operating Systems
 
@@ -23,3 +28,19 @@
 | 11  | Tablet  |       | iPadOS                          | Apple      |
 | 12  | Mobile  |       | Android                         | Google     |
 | 13  | Mobile  |       | iOS                             | Apple      |
+
+## Hosting
+
+### Serverless
+
+- [Vercel](https://vercel.com/)
+
+### Platform as a Service (P.a.a.S)
+
+- [Render](https://render.com/)
+
+## API
+
+### AI
+
+- [HuggingFace Serverless Inference API](https://huggingface.co/docs/api-inference/index)
