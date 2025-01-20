@@ -6,7 +6,7 @@ services:
       MYSQL_ROOT_PASSWORD: my-secret-pw
       MYSQL_DATABASE: mydatabase
     ports:
-      - "3306:3306"
+      - '3306:3306'
     networks:
       - mariadb_network
 
