@@ -27,5 +27,9 @@
     "husky": "9.1.7",
     "prettier": "3.4.2",
     "rimraf": "6.0.1"
+  },
+  "resolutions": {
+    "got": "11.8.5",
+    "marked": "4.0.10"
   }
 }
