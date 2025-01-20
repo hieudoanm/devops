@@ -30,6 +30,6 @@
   },
   "resolutions": {
     "got": "11.8.6",
-    "marked": "4.3.0"
+    "marked": "15.0.6"
   }
 }
