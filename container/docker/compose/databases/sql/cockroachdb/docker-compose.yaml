@@ -1,6 +1,6 @@
 services:
   cockroachdb:
-    image: cockroachdb/cockroach:v19.2.9
+    image: cockroachdb/cockroach:v24.3.4
     ports:
       - '26257:26257'
       - '8080:8080'
