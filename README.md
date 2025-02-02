@@ -7,6 +7,8 @@
   - [Operating Systems](#operating-systems)
   - [Docker](#docker)
   - [Database](#database)
+    - [Relational](#relational)
+  - [Messages](#messages)
   - [Hosting](#hosting)
     - [Serverless](#serverless)
     - [Platform as a Service (P.a.a.S)](#platform-as-a-service-paas)
@@ -46,21 +48,39 @@
 
 ## Database
 
-| Paradigm          | Name                                                  | [Docker][docker]               | Maintainer       |
-| ----------------- | ----------------------------------------------------- | ------------------------------ | ---------------- |
-| Key-Value         | [Memcached](https://memcached.org/)                   | [Docker][docker-memcached]     |                  |
-| Key-Value         | [Redis](https://redis.io/)                            | [Docker][docker-redis]         |                  |
-| Wide Column       | [Cassandra](https://cassandra.apache.org/)            | [Docker][docker-cassandra]     | [Apache][apache] |
-| Document Oriented | [CouchDB](https://couchdb.apache.org/)                | [Docker][docker-couchdb]       | [Apache][apache] |
-| Document Oriented | [MongoDB](https://www.mongodb.com/)                   | [Docker][docker-mongo]         |                  |
-| Relational        | [CockroachDB](https://www.cockroachlabs.com/)         | [Docker][docker-cockroach]     |                  |
-| Relational        | [MySQL](https://www.mysql.com/)                       | [Docker][docker-mysql]         |                  |
-| Relational        | [PostgreSQL](https://www.postgresql.org/)             | [Docker][docker-postgres]      |                  |
-| Graph             | [Dgraph](https://dgraph.io/)                          | [Docker][docker-dgraph]        |                  |
-| Graph             | [Neo4j](https://neo4j.com/)                           | [Docker][docker-neo4j]         |                  |
-| Search Engine     | [ElasticSearch](https://www.elastic.co/elasticsearch) | [Docker][docker-elasticsearch] |                  |
-| Search Engine     | [Solr](https://solr.apache.org/)                      | [Docker][docker-solr]          | [Apache][apache] |
-| Multi-Model       | [Fauna](https://fauna.com/)                           | [Docker][docker-fauna]         |                  |
+| Paradigm      | Name                                                  | [Docker][docker]               | Maintainer       |
+| ------------- | ----------------------------------------------------- | ------------------------------ | ---------------- |
+| Key-Value     | [Memcached](https://memcached.org/)                   | [Docker][docker-memcached]     |                  |
+| Key-Value     | [Redis](https://redis.io/)                            | [Docker][docker-redis]         |                  |
+| Wide Column   | [Cassandra](https://cassandra.apache.org/)            | [Docker][docker-cassandra]     | [Apache][apache] |
+| Documental    | [Couchbase](https://www.couchbase.com/)               |                                |                  |
+| Documental    | [CouchDB](https://couchdb.apache.org/)                | [Docker][docker-couchdb]       | [Apache][apache] |
+| Documental    | [MongoDB](https://www.mongodb.com/)                   | [Docker][docker-mongo]         |                  |
+| Graph         | [Dgraph](https://dgraph.io/)                          | [Docker][docker-dgraph]        |                  |
+| Graph         | [Neo4j](https://neo4j.com/)                           | [Docker][docker-neo4j]         |                  |
+| Search Engine | [ElasticSearch](https://www.elastic.co/elasticsearch) | [Docker][docker-elasticsearch] |                  |
+| Search Engine | [Solr](https://solr.apache.org/)                      | [Docker][docker-solr]          | [Apache][apache] |
+| Multi-Model   | [Fauna](https://fauna.com/)                           | [Docker][docker-fauna]         |                  |
+
+### Relational
+
+| Paradigm   | Name                                          | [Docker][docker]           | Maintainer |
+| ---------- | --------------------------------------------- | -------------------------- | ---------- |
+| Relational | [CockroachDB](https://www.cockroachlabs.com/) | [Docker][docker-cockroach] |            |
+| Relational | [MySQL](https://www.mysql.com/)               | [Docker][docker-mysql]     |            |
+| Relational | [PostgreSQL](https://www.postgresql.org/)     | [Docker][docker-postgres]  |            |
+| Relational | [MariaDB](https://mariadb.org/)               |                            |            |
+| Relational | [SQLite](https://www.sqlite.org/)             |                            |            |
+
+## Messages
+
+| Group                     | Name                                     | [Docker][docker] |
+| ------------------------- | ---------------------------------------- | ---------------- |
+| Traditional               | ActiveMQ                                 |                  |
+| Traditional               | RabbitMQ                                 |                  |
+| Distributed & Cloud-Based | NATS (Neural Autonomic Transport System) |                  |
+| Distributed & Cloud-Based | Apache Kafka                             |                  |
+| Distributed & Cloud-Based | Amazon SQS (Simple Queue Service)        |                  |
 
 ## Hosting
 
