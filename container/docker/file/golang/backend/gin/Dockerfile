@@ -17,7 +17,7 @@ COPY . .
 RUN go build -o server main.go
 
 # Stage 2: Run the application with a minimal image
-FROM alpine:latest
+FROM alpine:3.21.2
 
 # Set the working directory in the container
 WORKDIR /app
