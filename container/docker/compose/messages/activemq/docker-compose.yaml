@@ -1,6 +1,7 @@
 services:
   activemq:
     image: rmohr/activemq:5.15.9
+    hostname: activemq
     container_name: activemq
     ports:
       - '61616:61616' # Main port for JMS

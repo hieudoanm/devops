@@ -1,6 +1,7 @@
 services:
   memcached:
     image: memcached:latest
+    hostname: memcached
     container_name: memcached
     ports:
       - '11211:11211' # Default Memcached port

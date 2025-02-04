@@ -1,6 +1,7 @@
 services:
   mariadb:
     image: mariadb:latest
+    hostname: mariadb
     container_name: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw

@@ -1,7 +1,8 @@
 services:
   sqlite:
-    container_name: sqlite-container
     image: sqlite:latest
+    hostname: sqlite
+    container_name: sqlite
     volumes:
       - sqlite-data:/mydatabase
     ports:

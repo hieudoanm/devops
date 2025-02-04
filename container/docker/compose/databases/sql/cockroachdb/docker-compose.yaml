@@ -1,6 +1,8 @@
 services:
   cockroachdb:
     image: cockroachdb/cockroach:v24.3.4
+    hostname: cockroachdb
+    container_name: cockroachdb
     ports:
       - '26257:26257'
       - '8080:8080'

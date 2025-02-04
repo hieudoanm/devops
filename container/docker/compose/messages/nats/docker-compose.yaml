@@ -1,7 +1,8 @@
 services:
   nats:
     image: nats:latest
-    container_name: nats-server
+    hostname: nats
+    container_name: nats
     restart: unless-stopped
     ports:
       - '4222:4222' # NATS client connections
