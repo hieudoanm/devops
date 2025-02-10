@@ -6,7 +6,7 @@ settings:
 
 overrides:
   got: 14.4.5
-  marked: 15.0.6
+  marked: 15.0.7
 
 importers:
 
@@ -496,8 +496,8 @@ packages:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
 
-  marked@15.0.6:
-    resolution: {integrity: sha512-Y07CUOE+HQXbVDCGl3LXggqJDbXDP2pArc2C1N1RRMN0ONiShoSsIInMd5Gsxupe7fKLpgimTV+HOJ9r7bA+pg==}
+  marked@15.0.7:
+    resolution: {integrity: sha512-dgLIeKGLx5FwziAnsk4ONoGwHwGPJzselimvlVskE9XLN4Orv9u2VA3GWw/lYUqjfA0rUT/6fqKwfZJapP9BEg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -1135,7 +1135,7 @@ snapshots:
 
   docsify@4.13.1:
     dependencies:
-      marked: 15.0.6
+      marked: 15.0.7
       medium-zoom: 1.1.0
       opencollective-postinstall: 2.0.3
       prismjs: 1.29.0
@@ -1377,7 +1377,7 @@ snapshots:
     dependencies:
       semver: 6.3.1
 
-  marked@15.0.6: {}
+  marked@15.0.7: {}
 
   medium-zoom@1.1.0: {}
 
