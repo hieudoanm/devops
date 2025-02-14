@@ -1,4 +1,4 @@
-FROM node:22.13.1 AS build
+FROM node:22.14.0 AS build
 
 LABEL author hieudoanm
 
@@ -9,7 +9,7 @@ COPY . /home/node/app
 
 RUN pnpm install & pnpm build
 
-FROM node:22.13.1-alpine
+FROM node:22.14.0-alpine
 
 USER node
 
